@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 // "mongodb+srv://samithrgowda:7zsJuGajQ7ONZicL@srdbcluster.b8lex.mongodb.net/SRDB2?retryWrites=true&w=majority&appName=SRDBCLUSTER"
 const connectDB = () => {
   mongoose
-    .connect("mongodb://13.206.135.148:27017/sarayu-test-project-ec2-Industrial-monitoring")
+    .connect("mongodb://13.206.135.148:27017/sarayu-test-project-ec2-Industrial-monitoringss")
     .then(() => {
       console.log("Database connection successfull!");
     })
